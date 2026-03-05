@@ -26,3 +26,18 @@ O projeto está dividido em dois arquivos principais:
 1. Faça o clone deste repositório:
    ```bash
    git clone [https://github.com/tirolasca/RI-4.git](https://github.com/tirolasca/RI-4.git)
+
+2. Acesse a pasta do projeto:
+
+   cd RI-4
+
+3. Certifique-se de que existe um arquivo package.json na raiz com a configuração de módulos:
+
+   {
+  "type": "module"
+}
+
+4. Execute o arquivo principal no Node:
+
+   node index.js
+   
